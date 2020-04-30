@@ -1,6 +1,16 @@
 # echobox
 ExpressJS container that repeats what you say.
 
+## Purpose
+Returns any http call through pure json when using curl, or html when using a browser.
+echo's back:
+- Method
+- Headers
+- Host
+- Path
+- Query parameters
+- Post or Put data
+
 ## Versions
 - martyca/alpinenodejs 1.0
 - ExpressJS 4.17.1
