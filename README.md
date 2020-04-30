@@ -23,4 +23,24 @@ https://www.npmjs.com
 ### Test
 `curl -s -X PUT -d "foo=bar" \-H "Accept: application/json" "localhost:8080/foo/bar?foo=bar&baz=qux" | jq .`
 ### Result
-![Curl output](https://raw.githubusercontent.com/martyca/echobox/master/img/output.png)
+```javascript
+{
+  "Method": "PUT",
+  "Headers": {
+    "host": "localhost:8080",
+    "user-agent": "curl/7.54.0",
+    "accept": "application/json",
+    "content-length": "7",
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "Host": "localhost",
+  "Path": "/foo/bar",
+  "Queries": {
+    "foo": "bar",
+    "baz": "qux"
+  },
+  "data": {
+    "foo": "bar"
+  }
+}
+```
