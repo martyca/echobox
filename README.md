@@ -23,4 +23,4 @@ https://www.npmjs.com
 ### Test
 `curl -s -X PUT -d "foo=bar" \-H "Accept: application/json" "localhost:8080/foo/bar?foo=bar&baz=qux" | jq .`
 ### Result
-![Curl output](https://octodex.github.com/images/yaktocat.png)
+![Curl output](https://raw.githubusercontent.com/martyca/echobox/master/img/output.png)
